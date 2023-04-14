@@ -1,0 +1,200 @@
+body{
+	background: #E5E5E5;
+	font-family: 'Montserrat', sans-serif
+}
+
+/*right section styles*/
+
+.right-section{
+	padding-left: 90px;
+	padding-right: 100px;
+	background-color:  #B0E0E6 ;
+	margin-right: 50px;
+}
+
+.about-me-profession{
+	color: black;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	margin-top: 100px;
+}
+
+#personName{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 55px;
+	margin-top: 30px;
+}
+
+.main-section{
+	display: flex;
+	flex-direction: row-reverse;
+	width: 1200px;
+	margin:40px auto;
+}
+
+.about-me-section{
+	width: 400px;
+	margin-right: 30px;
+}
+
+.about-me-section p {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color:  #0000ff;
+}
+
+.projects-sections{
+	margin: 40px 0 0 0;  /*sau margin-top=40px, margin-right=0px;margin-bottom: 0px; margin-left=0px//merge in sens ceasornic*/
+	}
+
+.block-title{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	color: #000000;
+}
+
+.projects-sections ol{
+	padding-left: 18px;
+}
+
+ol li, .bracket{
+	color: #0000ff;
+	font-weight: 700;
+}
+
+
+.projects-item{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration-line: underline;
+	color:  #0000ff;
+	margin-left: 10px;
+}
+
+.projects-item a{
+	color: #0000ff;
+}
+
+.work-experience-section{
+	margin-top: 50px;
+}
+
+.work-experience-position{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+}
+
+.period-engagement{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #4200a3;
+	}
+
+.work-experience-company{
+	color:#FB6D3A;
+}
+
+.unitate-invatamant{
+	color:#FB6D3A;
+}
+
+.education-section{
+	margin-top:50px;
+}
+
+.line-break{
+	color:#000;
+}
+
+.work-experience-duties li{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color:#0000ff;
+}
+
+.work-experience-duties{
+	padding-left: 18px;
+}
+
+/*Sidebar styles */
+
+.sidebar-section{
+background-color:#1E2939;
+width:370px;
+}
+
+.sidebar-section img{
+	margin-top:40px;
+}
+
+.sidebar-title,.language-title, .driven-title{
+	font-style: normal;
+	font-weight: 700;
+	font-size:22px ;
+	line-height: 27px;
+	color: #FFFFFF;                /*sau#fff*/ 
+}
+
+
+
+.contacts-section, .tech-skills-section, .soft-skills-section,.language-section, .driven-section{
+	margin-left: 40px;
+}
+
+.contacts-section-type{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	color:#fff;
+	margin-right: 10px;
+
+}
+
+.contacts-section-value{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color:#fff;   /*culoarea aleasa din model: #3A4352, pe design-->fill-->click pipeta si ma duc pe scris si apare codul culorii in hex si se iasa cu ctrl+z sa nu ramana acea culoare*/
+}
+
+.sidebar-list, .language-list, .driven-list {  /*sau .tech-skills-section ul, .soft-skills-section ul*/
+	color:#FB6D3A;
+	padding-left: 20px;
+}
+
+
+.sidebar-list span, .language-list span, .driven-list span { /*sau .tech-skills-section ul span, .soft-skills-section ul span */
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color:#3A4352; 
+	color:#fff;
+}
